@@ -1,2 +1,2 @@
 str=(“EnGentech Software DevOp”)
-print(str \n)* 10
+print((str + "\n") * 10)
