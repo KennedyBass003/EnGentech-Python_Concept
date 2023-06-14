@@ -4,13 +4,13 @@ print('Welcome to Ludo game')
 
 pick = {'toss','quit'}
 while True:
-  R1 = random.randint(0,7)
-  R2 = random.randint(0,7)
-  name=input("Enter toss/quit: \t")
+  R1 = random.randint(1,6)
+  R2 = random.randint(1,6)
+  name=input("Enter toss / quit: ")
   if name not in pick:
-    print("Invalid input")
+    print("==Invalid input==")
   else:
     if name == "toss":
-        print(R1, ":", R2)
+        print("You've tossed", R1, ":", R2)
     elif name == "quit":
         exit("Goodbye")
