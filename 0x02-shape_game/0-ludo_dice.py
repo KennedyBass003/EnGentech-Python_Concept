@@ -11,6 +11,6 @@ while True:
     print("==Invalid input==")
   else:
     if name == "toss":
-        print("You've tossed", R1, ":", R2)
+        print(f"You've tossed, {R1}, :, {R2}")
     elif name == "quit":
         exit("Goodbye")
